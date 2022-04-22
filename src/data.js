@@ -7,7 +7,7 @@ const staticData = {
       createdAt: "1 month ago",
       score: 12,
       user: {
-        image: "/images/avatars/image-amyrobson.png",
+        image: "./images/avatars/image-amyrobson.png",
         username: "amyrobson",
       },
       replies: [],
@@ -19,7 +19,7 @@ const staticData = {
       createdAt: "2 weeks ago",
       score: 5,
       user: {
-        image: "/images/avatars/image-maxblagun.png",
+        image: "./images/avatars/image-maxblagun.png",
         username: "maxblagun",
       },
       replies: [
@@ -31,7 +31,7 @@ const staticData = {
           score: 4,
           replyingTo: "maxblagun",
           user: {
-            image: "/images/avatars/image-ramsesmiron.png",
+            image: "./images/avatars/image-ramsesmiron.png",
             username: "ramsesmiron",
           },
           replies: [],
@@ -44,7 +44,7 @@ const staticData = {
           score: 2,
           replyingTo: "ramsesmiron",
           user: {
-            image: "/images/avatars/image-juliusomo.png",
+            image: "./images/avatars/image-juliusomo.png",
             username: "juliusomo",
           },
           replies: [],
@@ -56,19 +56,19 @@ const staticData = {
 
 const users = [
   {
-    image: "/images/avatars/image-juliusomo.png",
+    image: "./images/avatars/image-juliusomo.png",
     username: "juliusomo",
   },
   {
-    image: "/images/avatars/image-amyrobson.png",
+    image: "./images/avatars/image-amyrobson.png",
     username: "amyrobson",
   },
   {
-    image: "/images/avatars/image-maxblagun.png",
+    image: "./images/avatars/image-maxblagun.png",
     username: "maxblagun",
   },
   {
-    image: "/images/avatars/image-ramsesmiron.png",
+    image: "./images/avatars/image-ramsesmiron.png",
     username: "ramsesmiron",
   },
 ];
