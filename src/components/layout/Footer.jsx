@@ -11,14 +11,18 @@ const Footer = () => {
           <a
             href='https://www.frontendmentor.io/home'
             target='_blank'
-            rel='noreferrer'
+            rel='noopener noreferrer'
           >
             Frontend Mentor
           </a>
         </p>
         <p>
           Created using{" "}
-          <a href='https://reactjs.org/' target='_blank' rel='noreferrer'>
+          <a
+            href='https://reactjs.org/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             React
           </a>
         </p>

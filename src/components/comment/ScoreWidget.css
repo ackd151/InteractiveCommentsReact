@@ -10,6 +10,9 @@
   width: 2rem;
 }
 .vote-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   border: 1px solid transparent;
   background-size: 33%;
@@ -23,19 +26,12 @@
 .vote-btn:hover {
   opacity: 1;
 }
-
-.up-vote {
-  background: url(/src/images/icon-plus.svg) no-repeat center;
-}
 .vote-count {
   color: var(--color-primary-blue);
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 500;
-}
-.down-vote {
-  background: url(/src/images/icon-minus.svg) no-repeat center;
 }
 
 @media screen and (max-width: 600px) {

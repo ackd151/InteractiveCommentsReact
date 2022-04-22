@@ -1,3 +1,5 @@
+import React from "react";
+
 import Comment from "./Comment";
 import NewComment from "./NewComment";
 import "./CommentThread.css";

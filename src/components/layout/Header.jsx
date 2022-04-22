@@ -13,7 +13,7 @@ const Header = () => {
           href='https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9'
           className='header-subtitle'
           target='_blank'
-          rel='noreferrer'
+          rel='noopener noreferrer'
         >
           - Interactive Comments
         </a>

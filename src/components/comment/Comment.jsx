@@ -41,7 +41,9 @@ const Comment = ({ comment, parents, idx }) => {
               />
             ) : (
               <div className='reply' onClick={replyClickHandler}>
-                <span className='reply-svg'></span>
+                <span className='reply-svg'>
+                  <img src='/images/icon-reply.svg' alt='reply' />
+                </span>
                 <span>reply</span>
               </div>
             )}
