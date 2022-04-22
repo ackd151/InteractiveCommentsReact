@@ -15,7 +15,7 @@ const ScoreWidget = (props) => {
         className='vote-btn up-vote'
         onClick={() => voteHandler(1)}
       >
-        <img src='/images/icon-plus.svg' alt='up-vote' />
+        <img src='./interactive-comments-react/images/icon-plus.svg' alt='up-vote' />
       </button>
       <div className='vote-count'>
         <span id='score'>{score}</span>
@@ -25,7 +25,7 @@ const ScoreWidget = (props) => {
         className='vote-btn down-vote'
         onClick={() => voteHandler(-1)}
       >
-        <img src='/images/icon-minus.svg' alt='down-vote' />
+        <img src='./interactive-comments-react/images/icon-minus.svg' alt='down-vote' />
       </button>
     </div>
   );
