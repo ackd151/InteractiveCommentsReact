@@ -1,0 +1,12 @@
+.user-tag {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.you {
+  font-size: 0.8rem;
+  padding: 0.1rem 0.25rem;
+  color: var(--color-neutral-white);
+  background-color: var(--color-primary-blue);
+}

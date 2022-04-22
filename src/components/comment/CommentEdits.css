@@ -1,0 +1,32 @@
+.comment-edits {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.edit-btn {
+  font: inherit;
+  background: none;
+  border: none;
+  text-transform: capitalize;
+}
+.edit-btn > img {
+  margin-right: 0.5rem;
+}
+.edit-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.delete {
+  color: var(--color-primary-red);
+}
+.edit {
+  color: var(--color-primary-blue);
+}
+
+@media screen and (max-width: 600px) {
+  .comment-edits {
+    position: absolute;
+    bottom: 1.25rem;
+    right: 1rem;
+  }
+}

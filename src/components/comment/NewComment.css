@@ -1,0 +1,15 @@
+.new-comment-block {
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+  .new-comment-block > .avatar {
+    display: inline-block;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+  }
+}

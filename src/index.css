@@ -1,0 +1,75 @@
+:root {
+  --color-primary-blue: hsl(238, 40%, 52%); /*#C5C6EF*/
+  --color-primary-red: hsl(358, 79%, 66%);
+  --color-primary-blue-gray: hsl(239, 57%, 85%);
+  --color-primary-red-pale: hsl(357, 100%, 86%);
+  --color-primary-red-very-pale: hsl(357, 100%, 91%);
+
+  --color-neutral-blue-dark: hsl(212, 24%, 26%);
+  --color-neutral-blue-gray: hsl(211, 10%, 45%);
+  --color-neutral-gray: hsl(223, 19%, 93%);
+  --color-neutral-gray-light: hsl(228, 33%, 97%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-neutral-blue-dark);
+  overflow-y: overlay; /* scrollbar overlay */
+}
+body {
+  overflow-x: hidden;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-red-very-pale);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-red);
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--color-neutral-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5.5rem 1rem;
+}
+
+main {
+  width: 66.7%;
+}
+
+/* media queries */
+@media screen and (max-width: 1000px) {
+  main {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* fixed header flex-wrap -> page padding-top adjustment */
+  #root {
+    padding-top: 8rem;
+  }
+}

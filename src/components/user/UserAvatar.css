@@ -1,0 +1,13 @@
+.avatar {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-size: contain;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.active {
+  border-color: var(--color-neutral-white);
+  box-shadow: 0 0 5px var(--color-neutral-white);
+}
