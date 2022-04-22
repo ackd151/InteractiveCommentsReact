@@ -13,11 +13,11 @@ const CommentEdits = ({ parents, idx, onEditClick }) => {
         className='edit-btn delete'
         onClick={() => commentCtx.deleteComment(parents, idx)}
       >
-        <img src='/images/icon-delete.svg' alt='delete comment' />
+        <img src='./images/icon-delete.svg' alt='delete comment' />
         delete
       </button>
       <button type='button' className='edit-btn edit' onClick={onEditClick}>
-        <img src='/images/icon-edit.svg' alt='edit comment' />
+        <img src='./images/icon-edit.svg' alt='edit comment' />
         edit
       </button>
     </div>
