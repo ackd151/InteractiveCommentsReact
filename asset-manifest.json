@@ -1,13 +1,13 @@
 {
-  "main.css": "/InteractiveCommentsReact/static/css/main.0b067fdf.chunk.css",
-  "main.js": "/InteractiveCommentsReact/static/js/main.bfd6066e.chunk.js",
-  "main.js.map": "/InteractiveCommentsReact/static/js/main.bfd6066e.chunk.js.map",
-  "runtime~main.js": "/InteractiveCommentsReact/static/js/runtime~main.5ea21f61.js",
-  "runtime~main.js.map": "/InteractiveCommentsReact/static/js/runtime~main.5ea21f61.js.map",
-  "static/js/2.789c2afa.chunk.js": "/InteractiveCommentsReact/static/js/2.789c2afa.chunk.js",
-  "static/js/2.789c2afa.chunk.js.map": "/InteractiveCommentsReact/static/js/2.789c2afa.chunk.js.map",
-  "index.html": "/InteractiveCommentsReact/index.html",
-  "precache-manifest.dbd88eb98804f8c9312687b7ff1f493c.js": "/InteractiveCommentsReact/precache-manifest.dbd88eb98804f8c9312687b7ff1f493c.js",
-  "service-worker.js": "/InteractiveCommentsReact/service-worker.js",
-  "static/css/main.0b067fdf.chunk.css.map": "/InteractiveCommentsReact/static/css/main.0b067fdf.chunk.css.map"
+  "main.css": "/interactive-comments-react/static/css/main.0b067fdf.chunk.css",
+  "main.js": "/interactive-comments-react/static/js/main.bfd6066e.chunk.js",
+  "main.js.map": "/interactive-comments-react/static/js/main.bfd6066e.chunk.js.map",
+  "runtime~main.js": "/interactive-comments-react/static/js/runtime~main.0135a3ff.js",
+  "runtime~main.js.map": "/interactive-comments-react/static/js/runtime~main.0135a3ff.js.map",
+  "static/js/2.789c2afa.chunk.js": "/interactive-comments-react/static/js/2.789c2afa.chunk.js",
+  "static/js/2.789c2afa.chunk.js.map": "/interactive-comments-react/static/js/2.789c2afa.chunk.js.map",
+  "index.html": "/interactive-comments-react/index.html",
+  "precache-manifest.6cf1d3d3d78cdc0ba6fe92653a73f1d9.js": "/interactive-comments-react/precache-manifest.6cf1d3d3d78cdc0ba6fe92653a73f1d9.js",
+  "service-worker.js": "/interactive-comments-react/service-worker.js",
+  "static/css/main.0b067fdf.chunk.css.map": "/interactive-comments-react/static/css/main.0b067fdf.chunk.css.map"
 }

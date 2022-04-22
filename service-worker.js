@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/InteractiveCommentsReact/precache-manifest.dbd88eb98804f8c9312687b7ff1f493c.js"
+  "/interactive-comments-react/precache-manifest.6cf1d3d3d78cdc0ba6fe92653a73f1d9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/InteractiveCommentsReact/index.html", {
+workbox.routing.registerNavigationRoute("/interactive-comments-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
